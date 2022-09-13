@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -755,7 +755,7 @@ const queryPermission = require('queryPermission');
 const injectScript = require('injectScript');
 const createQueue = require('createQueue');
 
-const url = 'https://beta-plugins.soclminer.com.br/v1/betag/betag.debug.js';
+const url = 'https://plugins.soclminer.com.br/v1/betag/betag.min.js';
 if (queryPermission('inject_script', url)) {
   injectScript(url, data.gtmOnSuccess(), data.gtmOnFailure());
 }
