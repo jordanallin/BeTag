@@ -1,6 +1,8 @@
 homepage: "https://allin.com.br"
 documentation: "https://github.com/giep-br/betag"
 versions:
+  - sha: da6f9c16dcd2d40440a3ecd77fe057b96306abde
+    changeNotes: Permissão de URLs
   - sha: 412d00ff010341bc531d438076b0818d764670ed
     changeNotes: Atualização de URLs
   - sha: 018add70f799de09faac25a85fb581f9d61d2fa2
