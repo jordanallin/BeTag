@@ -112,8 +112,20 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "allinPurchaseTriggerInfo",
-                "displayName": "Nome do Evento/Atributo",
-                "simpleValueType": true
+                "displayName": "Nome do Evento/Atributo*",
+                "simpleValueType": true,
+                "valueValidators": [
+                  {
+                    "type": "NON_EMPTY",
+                    "enablingConditions": [
+                      {
+                        "paramName": "allinPurchaseTriggerType",
+                        "paramValue": "",
+                        "type": "PRESENT"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -244,8 +256,20 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgProductTriggerInfo",
-                "displayName": "Nome do Evento/Atributo",
-                "simpleValueType": true
+                "displayName": "Nome do Evento/Atributo*",
+                "simpleValueType": true,
+                "valueValidators": [
+                  {
+                    "type": "NON_EMPTY",
+                    "enablingConditions": [
+                      {
+                        "paramName": "btgProductTriggerType",
+                        "paramValue": "",
+                        "type": "PRESENT"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -375,8 +399,20 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgClientTriggerInfo",
-                "displayName": "Nome do Evento/Atributo",
-                "simpleValueType": true
+                "displayName": "Nome do Evento/Atributo*",
+                "simpleValueType": true,
+                "valueValidators": [
+                  {
+                    "type": "NON_EMPTY",
+                    "enablingConditions": [
+                      {
+                        "paramName": "btgClientTriggerType",
+                        "paramValue": "",
+                        "type": "PRESENT"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -446,8 +482,20 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgCartTriggerInfo",
-                "displayName": "Nome do Evento/Atributo",
-                "simpleValueType": true
+                "displayName": "Nome do Evento/Atributo*",
+                "simpleValueType": true,
+                "valueValidators": [
+                  {
+                    "type": "NON_EMPTY",
+                    "enablingConditions": [
+                      {
+                        "paramName": "btgCartTriggerType",
+                        "paramValue": "",
+                        "type": "PRESENT"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -595,8 +643,20 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgTransactionTriggerInfo",
-                "displayName": "Nome do Evento/Atributo",
-                "simpleValueType": true
+                "displayName": "Nome do Evento/Atributo*",
+                "simpleValueType": true,
+                "valueValidators": [
+                  {
+                    "type": "NON_EMPTY",
+                    "enablingConditions": [
+                      {
+                        "paramName": "btgTransactionTriggerType",
+                        "paramValue": "",
+                        "type": "PRESENT"
+                      }
+                    ]
+                  }
+                ]
               }
             ]
           },
@@ -786,7 +846,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://beta-plugins.soclminer.com.br/v1/betag/betag.debug.js"
+                "string": "https://*.soclminer.com.br/"
               }
             ]
           }
