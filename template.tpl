@@ -87,6 +87,13 @@ ___TEMPLATE_PARAMETERS___
         "groupStyle": "ZIPPY_CLOSED",
         "subParams": [
           {
+            "type": "TEXT",
+            "name": "allinPurchaseUrl",
+            "displayName": "Endereço de compra (URL)",
+            "simpleValueType": true,
+            "help": "Este campo deve conter uma parte da URL de compra. Se a URL contem a parte informado, não será realizado a inicialização da Tag All in."
+          },
+          {
             "type": "GROUP",
             "name": "allinPurchaseTrigger",
             "displayName": "Acionador",
@@ -104,6 +111,10 @@ ___TEMPLATE_PARAMETERS___
                   {
                     "value": "onDataLayerWithAttr",
                     "displayValue": "Contem atributo no DataLayer"
+                  },
+                  {
+                    "value": "onPageLoadedIncludeUrl",
+                    "displayValue": "Contem parte da URL"
                   }
                 ],
                 "simpleValueType": true,
@@ -112,7 +123,7 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "allinPurchaseTriggerInfo",
-                "displayName": "Nome do Evento/Atributo*",
+                "displayName": "Nome do Evento/Atributo/URL*",
                 "simpleValueType": true,
                 "valueValidators": [
                   {
@@ -248,6 +259,10 @@ ___TEMPLATE_PARAMETERS___
                   {
                     "value": "onDataLayerWithAttr",
                     "displayValue": "Contem atributo no DataLayer"
+                  },
+                  {
+                    "value": "onPageLoadedIncludeUrl",
+                    "displayValue": "Contem parte da URL"
                   }
                 ],
                 "simpleValueType": true,
@@ -256,7 +271,7 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgProductTriggerInfo",
-                "displayName": "Nome do Evento/Atributo*",
+                "displayName": "Nome do Evento/Atributo/URL*",
                 "simpleValueType": true,
                 "valueValidators": [
                   {
@@ -391,6 +406,10 @@ ___TEMPLATE_PARAMETERS___
                   {
                     "value": "onDataLayerWithAttr",
                     "displayValue": "Contem atributo no DataLayer"
+                  },
+                  {
+                    "value": "onPageLoadedIncludeUrl",
+                    "displayValue": "Contem parte da URL"
                   }
                 ],
                 "simpleValueType": true,
@@ -399,7 +418,7 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgClientTriggerInfo",
-                "displayName": "Nome do Evento/Atributo*",
+                "displayName": "Nome do Evento/Atributo/URL*",
                 "simpleValueType": true,
                 "valueValidators": [
                   {
@@ -474,6 +493,10 @@ ___TEMPLATE_PARAMETERS___
                   {
                     "value": "onDataLayerWithAttr",
                     "displayValue": "Contem atributo no DataLayer"
+                  },
+                  {
+                    "value": "onPageLoadedIncludeUrl",
+                    "displayValue": "Contem parte da URL"
                   }
                 ],
                 "simpleValueType": true,
@@ -482,7 +505,7 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgCartTriggerInfo",
-                "displayName": "Nome do Evento/Atributo*",
+                "displayName": "Nome do Evento/Atributo/URL*",
                 "simpleValueType": true,
                 "valueValidators": [
                   {
@@ -562,7 +585,7 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "cartProductPrice",
-                "displayName": "Preço do produto",
+                "displayName": "Preço do produto*",
                 "simpleValueType": true,
                 "valueValidators": [
                   {
@@ -635,6 +658,10 @@ ___TEMPLATE_PARAMETERS___
                   {
                     "value": "onDataLayerWithAttr",
                     "displayValue": "Contem atributo no DataLayer"
+                  },
+                  {
+                    "value": "onPageLoadedIncludeUrl",
+                    "displayValue": "Contem parte da URL"
                   }
                 ],
                 "simpleValueType": true,
@@ -643,7 +670,7 @@ ___TEMPLATE_PARAMETERS___
               {
                 "type": "TEXT",
                 "name": "btgTransactionTriggerInfo",
-                "displayName": "Nome do Evento/Atributo*",
+                "displayName": "Nome do Evento/Atributo/URL*",
                 "simpleValueType": true,
                 "valueValidators": [
                   {
@@ -969,5 +996,3 @@ scenarios: []
 ___NOTES___
 
 Created on 29/08/2022 11:14:22
-
-
