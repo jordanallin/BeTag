@@ -1,6 +1,8 @@
 homepage: "https://allin.com.br"
 documentation: "https://github.com/giep-br/betag"
 versions:
+  - sha: 69bf3cc2d2ddff717acc5bf0ab2832a094b70c25
+    changeNotes: Novo acionador de dataLayer por URL e regra de inicialização em URL de compra
   - sha: da6f9c16dcd2d40440a3ecd77fe057b96306abde
     changeNotes: Permissão de URLs
   - sha: 412d00ff010341bc531d438076b0818d764670ed
