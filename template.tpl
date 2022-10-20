@@ -37,7 +37,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "GROUP",
     "name": "tagAlliNGroup",
-    "displayName": "Tag AlliN",
+    "displayName": "Tag All in",
     "groupStyle": "ZIPPY_OPEN",
     "subParams": [
       {
@@ -193,7 +193,7 @@ ___TEMPLATE_PARAMETERS___
   {
     "type": "GROUP",
     "name": "tagbtgGroup",
-    "displayName": "Tags Btg",
+    "displayName": "Tags BTG",
     "groupStyle": "ZIPPY_OPEN",
     "subParams": [
       {
@@ -996,3 +996,5 @@ scenarios: []
 ___NOTES___
 
 Created on 29/08/2022 11:14:22
+
+
