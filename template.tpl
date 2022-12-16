@@ -87,13 +87,6 @@ ___TEMPLATE_PARAMETERS___
         "groupStyle": "ZIPPY_CLOSED",
         "subParams": [
           {
-            "type": "TEXT",
-            "name": "allinPurchaseUrl",
-            "displayName": "Endereço de compra (URL)",
-            "simpleValueType": true,
-            "help": "Este campo deve conter uma parte da URL de compra. Se a URL contem a parte informado, não será realizado a inicialização da Tag All in."
-          },
-          {
             "type": "GROUP",
             "name": "allinPurchaseTrigger",
             "displayName": "Acionador",
