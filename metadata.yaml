@@ -1,6 +1,8 @@
 homepage: "https://allin.com.br"
 documentation: "https://github.com/giep-br/betag"
 versions:
+  - sha: af15403abca778df5707c1363af42fe5dbbb8f1a
+    changeNotes: Envio de metadados e melhorado logs da aplicação
   - sha: cc60b055dffc8677ffb7c9e95cde82bd078c19e1
     changeNotes: remoção de campo -endereço de compra-
   - sha: 1043b1a9cad4adb8e65267ceda2430e62eaef707
